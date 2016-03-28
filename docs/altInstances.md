@@ -112,7 +112,7 @@ class MyApplicationComponent extends React.Component {
 <MyApplicationComponent flux={flux} />
 ```
 
-Now, using context, which is a more common approach. There's a [util you can use](../src/utils/withAltContext) which will automatically create the context for you and then make it available for every immediate child of AltContainer.
+Now, using context, which is a more common approach. There's a [util you can use](../components/altContainer) which will automatically create the context for you and then make it available for every immediate child of AltContainer.
 
 ```js
 const flux = new Flux()
